@@ -1,0 +1,55 @@
+.todo {
+    display:flex;
+    overflow: hidden;
+    margin:5px 2px;
+    border-bottom:2px solid var(--border-color);
+    border-radius:5px;
+    box-shadow: 0 0 10px 1px var(--border-color);
+    
+}
+
+.title {
+    flex:15;
+   /* background:rgb(16, 206, 16);*/
+    word-break:break-all;
+    justify-content: flex-end; 
+    padding:2px;   
+    border-right:2px solid var(--border-color);
+    color:var(--light-text-color);
+}
+
+.title h2{
+    margin:0px;
+}
+
+.checkmark {
+    /*background:yellow;*/
+    padding: 5px 5px 5px 5px;
+    justify-self: flex-end;
+    align-self: flex-start;
+    color:var(--primary-button-color);
+    text-align:right;
+    font-size:30px;
+    font-weight: lighter;
+    flex:1;
+}
+
+.trash{
+   /* background:orangered;*/
+    padding: 5px 5px 5px 5px;
+    justify-self: flex-end;
+    align-self: flex-start;
+    color:var(--danger-button-color);
+    text-align:right;
+    font-size:30px;
+    font-weight: lighter;
+    flex:1;
+}
+
+.incomplete-todo {
+    /*background:#80B32F;*/
+}
+
+.completed-todo {
+    /*background:#ED2D16;*/
+}
